@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+    font-family:  sans-serif;
+    /*font-weight: 400;*/
+    font-style: normal;
+    /*font-size: 20px;*/
+    line-height: 100%;
+
+}
+li:last-child {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
